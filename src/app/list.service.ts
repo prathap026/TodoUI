@@ -12,7 +12,7 @@ export class ListService {
 
   // baseUrl='http://localhost:3000/'
 
-  baseUrl= 'https://todolistsapi-zryh.onrender.com/'
+  baseUrl= 'https://todoapi-cqgp.onrender.com/'
 
   getAll():Observable<List[]> {
     return this.http.get<List[]>(`${this.baseUrl}getAll`);
